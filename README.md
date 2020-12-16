@@ -11,7 +11,13 @@ Dataset and Preprocessing:
 3. Run 'dataset_and_EDA.ipynb' to get restaurants_places.pickle' which contains the merged data for reviews, places and user data. This is our final data. 
 
 Models:
-All models are self sufficient. Please place 'restaurants_places.pickle' in the models folder before executing. 
+1. All models are self sufficient. Please place 'restaurants_places.pickle' in the models folder before executing. 
+2. To run AutoEncoder Collaborative Filter, run AutoEnc CF/main.py. It uses data in .dat file and a reference data sample for Google Local Dataset is uploaded
+
+
+# References
+1. https://github.com/gtshs2/Autorec
+
 
 
 
